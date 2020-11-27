@@ -6,7 +6,9 @@ services:
     ports:
       - 8080:8080
     volumes:
-    - ./target/bbs:/usr/local/tomcat/webapps/bbs
+      - ./target/:/usr/local/tomcat/webapps/
+    depends_on:
+      - db
   db:
     image: mariadb
     environment:
