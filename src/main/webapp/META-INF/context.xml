@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Context>
+    <Resource
+            name="jdbc/mysql"
+            auth="Container"
+            type="javax.sql.DataSource"
+            username="docker"
+            password="docker"
+            driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://db:3306/bbs"/>
+</Context>
