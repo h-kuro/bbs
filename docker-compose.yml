@@ -10,7 +10,7 @@ services:
     depends_on:
       - db
   db:
-    image: mariadb
+    image: mysql
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=bbs
