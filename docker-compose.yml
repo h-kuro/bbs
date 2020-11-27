@@ -16,6 +16,6 @@ services:
       - MYSQL_DATABASE=bbs
       - MYSQL_USER=docker
       - MYSQL_PASSWORD=docker
-      - TZ='Asia/Tokyo'
+      - "TZ=Asia/Tokyo"
     ports:
       - 3306:3306
