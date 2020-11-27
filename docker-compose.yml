@@ -2,7 +2,7 @@ version: '3'
 
 services:
   web:
-    image: tomcat
+    image: tomcat:jdk15
     ports:
       - 8080:8080
     volumes:
